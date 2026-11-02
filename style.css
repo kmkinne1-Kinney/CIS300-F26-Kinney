@@ -1,0 +1,240 @@
+/* General Page Styles */
+
+body {
+    margin: 0;
+    background-color: #FAF7F2;
+    color: #3A2E2E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    color: #3A2E2E;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* Header */
+
+header {
+    background-color: #FAF7F2;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 140px;
+}
+
+.brand-title h1 {
+    font-size: 36px;
+    margin: 5px;
+}
+
+.brand-title p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #E7C4C4;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    color: #3A2E2E;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FAF7F2;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background-color: #FAF7F2;
+    padding: 30px;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 60%;
+    max-width: 700px;
+}
+
+.hero-text {
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+}
+
+.hero-text p {
+    font-size: 17px;
+}
+
+
+/* Button */
+
+.button {
+    background-color: #C1A192;
+    color: #3A2E2E;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #3A2E2E;
+}
+
+.button:hover {
+    background-color: #E4D3A1;
+}
+
+
+/* Featured Collections */
+
+.collections {
+    background-color: #E7C4C4;
+    padding: 30px;
+    text-align: center;
+}
+
+.collection-card {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    background-color: #FAF7F2;
+    border: 1px solid #C1A192;
+    vertical-align: top;
+}
+
+.collection-card img {
+    width: 100%;
+}
+
+.collection-card h3 {
+    padding: 5px;
+}
+
+
+/* Information Sections */
+
+.information-section {
+    background-color: #FAF7F2;
+    padding: 30px;
+    border-top: 1px solid #C1A192;
+    text-align: center;
+}
+
+.information-image img {
+    width: 35%;
+    max-width: 400px;
+}
+
+.information-text {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+
+/* Gemstone Guide */
+
+#gemstones {
+    background-color: #E4D3A1;
+}
+
+
+/* Contact Section */
+
+.contact {
+    background-color: #E7C4C4;
+    padding: 30px;
+}
+
+.contact form {
+    width: 70%;
+    margin: auto;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #C1A192;
+    background-color: #FAF7F2;
+}
+
+.contact button {
+    background-color: #C1A192;
+    color: #3A2E2E;
+    padding: 10px 20px;
+    border: 1px solid #3A2E2E;
+}
+
+.contact button:hover {
+    background-color: #E4D3A1;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #3A2E2E;
+    color: #FAF7F2;
+    padding: 25px;
+    text-align: center;
+}
+
+.footer-section {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.footer-section h3 {
+    color: #E4D3A1;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #FAF7F2;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #E4D3A1;
+}
